@@ -1,0 +1,390 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+ 
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+  
+}
+body {
+	background-color: #d7d7ec;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.headerPpal {
+	background-color:rgb(2, 2, 32);
+	padding: 20px 0;
+}
+.headerPpal-titulo{
+    font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+    
+}
+.headerPpal-titulo a{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+}
+.headerPpal-nav-link{
+    padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color:rgb(2, 2, 32);
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    text-transform: uppercase;
+}
+.headerPpal-nav-link:hover{
+ color: #0d4a72;
+ text-decoration: underline;
+}
+.contenidoPpal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.title__profile{
+     
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 150px;
+    float: right;
+    
+}
+.title__bio{
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: justify;
+
+}
+.title__subsection{
+    padding-top: 20px;
+}
+
+.title__network{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+   
+}
+.title__network__item, a{
+    font-size: 18px;
+    text-decoration:solid;
+    color: #0d4a72;
+}
+
+.about{
+border-radius: 3px;
+background-color:#c6c6ff;
+width: 100%;
+height: 200px;
+
+}
+.about__title{
+    width: 94%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 28px;
+}
+.about__paragraph{
+    width: 94%;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 1000px;
+    position: relative;
+    right: 140px;
+   margin-bottom: 3px;
+    
+}
+.Skills{
+    width: 94%;
+    margin:0 auto;
+    padding: 40px;
+}
+.skills__title,.formcontato__title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contenidoPpal-link-cursos, .contenidoPpal-link-hobbies,.academic__course__link{
+    height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+.contenidoPpal-link-cursos a, .contenidoPpal-link-hobbies a, .academic__course__link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.contenidoPpal-link-cursos:hover {
+	box-shadow: 4px 4px 4px #1b0f8d;
+}
+.contenidoPpal-link-hobbies:hover{
+    box-shadow: 4px 4px 4px rgb(214, 153, 39);
+}
+.academic__course__link:hover{
+    box-shadow: 4px 4px 4px rgb(27, 155, 85) ;
+}
+.contenidoPpal-link-cursos a:before, .academic__course__link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+.contenidoPpal-link-hobbies a:before{
+    content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+.contenidoPpal-link-cursos img,.contenidoPpal-link-hobbies img{
+    position: relative;
+    padding: 10px;
+    left: 100px;
+    width: 50px;;
+    height: 50px;
+}
+.academic__course__link img{
+    position: relative;
+    padding: 10px;
+    left: 130px;
+    width: 70px;
+    height: 60px;
+}
+.hobbies, .academic, .experience,.formcontato__text{
+    margin: 94%;
+    margin:0 auto;
+    padding: 40px;
+
+}
+.hobbies__title, .academic__title, .experience__section__title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contacttos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 40px;
+}
+/*Desde aca lo de experiencia profesional*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /*  */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; 
+    background-color: #aaaaff;
+  }
+  
+  /* */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .imagenes{
+    padding: 10px;
+    width: 90%;
+    height: 300px;
+  }
+  .experience__title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    float:right;
+    
+  }
+ 
+  .experiencia__boton--repo, .experience__boton--demo{
+    position: relative;
+    left:10px;
+    margin-top: 30px;
+    background-color: #5555ff;
+    border-color: #00001c;
+    height: 30px;
+    color: #F5F5F5;
+  }
+
+.experiencia__boton--repo:hover,.experience__boton--demo:hover{
+    background-color: #2a3fc9;
+    color: #000;
+    font-size: 30px;
+    height: 50px;
+}
+  /*Contactenos-----------------------------*/
+  .formcontato{
+    background-color:#c6c6ff;
+    height: 630px;
+  }
+  .card {
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title__contatenos {
+   font-weight: bold;
+    font-size: 18px;
+  }
+  
+   
+  .a__contact {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+  }
+  .icon__contactenos{
+    width: 70px;
+    height: 50px;
+    color: #0d4a72;
+  }
+  .icon__contactenos:hover{
+    color: #2a3fc9;
+  }
+  .contactenos__button:hover {
+    opacity: 0.7;
+  }
+ /*-------------------footer-----------------------*/
+ .footer{
+ background-color:rgb(2, 2, 32);
+ padding: 10px ;
+ margin-top: auto;
+ margin-bottom: auto;
+
+ }
+ .footer__rodape p{
+    color:#F5F5F5;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    
+ }
+ /*---------------Media query--------------*/
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+/* Menú */
+
+/*title*/
+.title__bio{font-size: 14px;text-align: justify;}
+.title__profile{position: relative; left: 50px; width: 50px;height: 40px;}
+.title__subsection{font-size: 14px;text-align: justify;}
+.title__network__item a{font-size: 12px;font-weight: bold;}
+/*sobre mi*/
+.about__paragraph{position: relative; left: 7px; text-align: justify;font-size: 12px;}
+/*Skills*/
+.contenidoPpal-link-cursos img{
+    position: relative;
+    padding: 10px;
+    left: 150px;
+    width: 50px;;
+    height: 50px;
+}
+/*Hobbies*//*Formación Académica*/
+.contenidoPpal-link-hobbies img,.academic__course__link img{
+    position: relative;
+    padding: 10px;
+    left: 180px;
+    width: 70px;;
+    height: 70px;}
+
+
+/*Experiencia Profesional*/
+.experience__title{
+  font-size: 16px;
+   
+    
+  }
+  .imagenes{
+     height: 200px;
+  }
+  .experiencia__boton--repo:hover,.experience__boton--demo:hover{
+   
+    height: 30px;
+    font-size: 12px;
+}
+    
+}
+
+
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+/*Menu*/
+
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+.about__paragraph{position: relative;padding: 1px; left: 7px; text-align: justify;font-size: 10px;}
+/*Skills*/
+.contenidoPpal-link-cursos img{
+  position: relative;
+  padding: 10px;
+  left: 110px;
+  width: 50px;;
+  height: 50px;
+}
+.contenidoPpal-link-hobbies img,.academic__course__link img{
+  position: relative;
+  padding: 16px;
+  left: 120px;
+  width: 70px;;
+  height: 70px;}
+  .about{
+    height: 230px;
+  }
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+.column {
+ 
+  height: 520px; 
+ 
+}
+ /*Contacto*/
+
+/*Footer*/
+
+}

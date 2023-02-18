@@ -1,0 +1,40 @@
+.headerPpal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerPpal-nav{
+    display: flex;
+}
+.contenidoPpal-habilidades, .contenidoPpal-hobbies, .academic__courses__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPpal-link-cursos, .contenidoPpal-link-hobbies{
+    display: flex;
+    width: 23%;
+}
+.academic__course__link{
+    display: flex;
+    width: 30%;
+    height: 150px;
+}
+/*-----------REponsive--------*/
+@media (max-width: 768px) {
+    
+
+    .headerPpal .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    .headerPpal-nav{
+        flex-direction: column;
+    }
+    .contenidoPpal-habilidades,.contenidoPpal-hobbies,.academic__courses__list{
+        flex-direction: column;
+    }
+    .contenidoPpal-link-cursos,.contenidoPpal-link-hobbies,.academic__course__link{
+        width: 100%;
+    }
+}
